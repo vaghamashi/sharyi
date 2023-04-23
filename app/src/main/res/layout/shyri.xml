@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/purple_200"
+        app:cardCornerRadius="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/txt_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="સમજાતું નથી જિંદગી છે કે જલેબી,
+મીઠી તો લાગે છે પણ ગૂંચવાડા બહુ છે 😊💖"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="40dp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
